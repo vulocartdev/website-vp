@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/hero",
+	"title": "VuloPilot: Hero",
+	"category": "vulopilot",
+	"icon": "compass",
+	"description": "The hero section with rotating headline, CTA buttons and animated scan-score card.",
+	"attributes": {
+		"eyebrow": { "type": "string", "default": "The WordPress Growth Operating System" },
+		"headlineStart": { "type": "string", "default": "Stop collecting warnings. Your website should " },
+		"headlineRotating": {
+			"type": "array",
+			"default": [ "improve itself.", "be understood by AI.", "prove it worked." ]
+		},
+		"subhead": { "type": "string", "default": "VuloPilot looks across your entire WordPress website, finds what is holding it back, explains why it matters, and helps you improve it." },
+		"ctaPrimaryText": { "type": "string", "default": "Connect your WordPress site" },
+		"ctaSecondaryText": { "type": "string", "default": "See how it works" },
+		"helperText": { "type": "string", "default": "Free to start · No credit card required" },
+		"siteScore": { "type": "number", "default": 82 }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

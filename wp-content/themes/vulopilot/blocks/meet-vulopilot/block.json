@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/meet-vulopilot",
+	"title": "VuloPilot: Meet VuloPilot",
+	"category": "vulopilot",
+	"icon": "list-view",
+	"description": "Five question/answer rows explaining what VuloPilot does and where it checks.",
+	"attributes": {
+		"heading": { "type": "string", "default": "Every problem deserves a next step." },
+		"subhead": { "type": "string", "default": "One WordPress plugin that understands your entire website, tells you what matters, and helps you act – automatically." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css"
+}
