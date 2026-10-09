@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/how-it-works",
+	"title": "VuloPilot: How it Works",
+	"category": "vulopilot",
+	"icon": "list-view",
+	"description": "Five clickable steps with an expanding description and a sticky detail panel.",
+	"attributes": {
+		"heading": { "type": "string", "default": "“What’s wrong?” becomes “We’ve got this.”" },
+		"subhead": { "type": "string", "default": "Every problem goes from found to fixed — and proven." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,36 @@
+.vp-how{padding:7rem 20px}
+.vp-how-grid{margin-top:3.5rem;display:grid;gap:2rem}
+@media(min-width:1024px){.vp-how-grid{grid-template-columns:1fr 1.1fr}}
+
+.vp-steps{display:flex;flex-direction:column;gap:12px}
+.vp-step{
+	position:relative;width:100%;overflow:hidden;border-radius:16px;border:1px solid var(--line);
+	background:rgba(255,255,255,.4);padding:20px;text-align:left;transition:background .2s,border-color .2s,box-shadow .2s;
+}
+.vp-step:hover{background:var(--surface)}
+.vp-step.is-active{border-color:var(--ink);background:var(--surface);box-shadow:0 10px 30px -18px rgba(0,0,0,.3)}
+.vp-step-top{display:flex;align-items:center;gap:16px}
+.vp-step-icon{display:grid;place-items:center;width:44px;height:44px;flex-shrink:0;border-radius:12px;background:var(--sage-soft);color:var(--sage);transition:background .2s,color .2s}
+.vp-step.is-active .vp-step-icon{background:var(--ink);color:var(--bg)}
+.vp-step-num{font-family:monospace;font-size:11px;color:var(--muted)}
+.vp-step-desc{overflow:hidden;max-height:0;transition:max-height .35s ease}
+.vp-step.is-active .vp-step-desc{max-height:120px;margin-top:8px}
+.vp-step-progress{position:absolute;bottom:0;left:0;height:3px;width:0;background:var(--apricot);transition:width .4s}
+.vp-step.is-active .vp-step-progress{width:100%}
+
+.vp-how-panel{position:relative;min-height:360px;padding:2rem}
+@media(min-width:1024px){.vp-how-panel{position:sticky;top:7rem;align-self:start}}
+.vp-how-panel-label{margin-bottom:1.5rem}
+.vp-panel-view{animation:vpFade .4s ease}
+@keyframes vpFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+.vp-checklist{display:flex;flex-direction:column;gap:14px}
+.vp-check-row-top{display:flex;align-items:center;justify-content:space-between;font-size:.9rem;margin-bottom:6px}
+.vp-check-mark{opacity:0;color:var(--sage);transition:opacity .3s}
+.vp-check-mark.is-done{opacity:1}
+.vp-progress-track{height:6px;border-radius:999px;background:var(--line);overflow:hidden}
+.vp-progress-fill{display:block;height:100%;width:0;border-radius:999px;transition:width 1s cubic-bezier(.16,1,.3,1)}
+
+.vp-verify{display:flex;align-items:center;justify-content:space-around}
+.vp-verify-score{text-align:center}
+.vp-verify-badge{display:grid;place-items:center;width:56px;height:56px;border-radius:999px;background:var(--sage-soft);color:var(--sage)}

@@ -1,0 +1,12 @@
+.vp-automation{padding:7rem 20px}
+.vp-automation-grid{margin-top:3.5rem;display:grid;gap:1.25rem}
+@media(min-width:768px){.vp-automation-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1024px){.vp-automation-grid{grid-template-columns:1fr 1fr 1fr}}
+.vp-automation-card{height:100%;padding:1.5rem}
+.vp-automation-top{display:flex;align-items:center;justify-content:space-between}
+.vp-automation-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:12px}
+.vp-tier-pill{font-family:monospace;font-size:10px;text-transform:uppercase;letter-spacing:.14em;background:var(--sage-soft);color:var(--sage);border:none}
+.vp-tier-pill.is-pro{background:var(--apricot);color:#fff}
+.vp-automation-steps{margin-top:1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.vp-step-pill{background:var(--bg);font-size:.75rem;padding:4px 12px}
+.vp-automation-result{margin-top:1.25rem;border-top:1px solid var(--line);padding-top:1rem;font-size:.9rem}

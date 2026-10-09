@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/automation",
+	"title": "VuloPilot: Automation",
+	"category": "vulopilot",
+	"icon": "update",
+	"description": "Grid of automation feature cards (scans, reports, backups, rules, security watch, audits).",
+	"attributes": {
+		"heading": { "type": "string", "default": "Set up VuloPilot. It keeps working." },
+		"subhead": { "type": "string", "default": "Free covers scheduled scans, reports and backups. Pro adds rules, security watch and scheduled audits." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css"
+}

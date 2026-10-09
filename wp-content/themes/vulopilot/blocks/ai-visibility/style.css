@@ -1,0 +1,14 @@
+.vp-ai{padding:7rem 20px}
+.vp-ai-grid{display:grid;gap:3.5rem;align-items:center}
+@media(min-width:1024px){.vp-ai-grid{grid-template-columns:1fr 1fr}}
+.vp-ai-tags{margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:8px}
+.vp-ai-steps{margin-top:2rem;display:flex;flex-direction:column;gap:12px}
+.vp-ai-steps li{display:flex;gap:16px;align-items:flex-start}
+.vp-ai-num{display:grid;place-items:center;width:28px;height:28px;flex-shrink:0;border-radius:999px;background:var(--lilac-soft);font-family:monospace;font-size:.75rem;color:var(--lilac)}
+
+.vp-ai-visual{position:relative}
+.vp-chat-card{padding:1.5rem}
+.vp-chat-user{margin-left:auto;width:fit-content;max-width:85%;border-radius:16px 16px 4px 16px;background:var(--ink);color:var(--bg);padding:12px 16px;font-size:.9rem}
+.vp-chat-answer{margin-top:1rem;max-width:92%;border-radius:16px 16px 16px 4px;border:1px solid var(--line);background:rgba(245,247,252,.7);padding:12px 16px;font-size:.9rem;line-height:1.6}
+.vp-mini-gauges{margin-top:1.5rem;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;border-top:1px solid var(--line);padding-top:1.5rem}
+.vp-mini-gauge{display:flex;flex-direction:column;align-items:center;gap:8px}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/ai-visibility",
+	"title": "VuloPilot: AI Visibility",
+	"category": "vulopilot",
+	"icon": "smartphone",
+	"description": "Looking-ahead section: people ask AI, not just Google, with a chat mock and three mini gauges.",
+	"attributes": {
+		"heading": { "type": "string", "default": "People now ask AI, not just Google. Be the answer." },
+		"subhead": { "type": "string", "default": "VuloPilot helps your website explain itself clearly, so tools like ChatGPT and Gemini understand what you do." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}
