@@ -1,0 +1,14 @@
+.vp-final-cta{padding:2.5rem 20px 6rem}
+.vp-final-cta-card{
+	position:relative;overflow:hidden;border-radius:40px;padding:2.5rem 1.5rem;
+	background:linear-gradient(135deg, var(--sage-soft), var(--bg) 55%, var(--apricot-soft));
+}
+@media(min-width:640px){.vp-final-cta-card{padding:5rem}}
+.vp-final-cta-glow{position:absolute;left:-2.5rem;top:0;width:240px;height:240px;border-radius:999px;background:var(--lilac-soft);filter:blur(60px)}
+.vp-scan-form{
+	position:relative;margin:2.5rem auto 0;max-width:34rem;display:flex;flex-direction:column;gap:12px;
+	border-radius:28px;border:1px solid var(--line);background:var(--surface);padding:8px;box-shadow:0 20px 50px -28px rgba(0,0,0,.3);
+}
+@media(min-width:640px){.vp-scan-form{flex-direction:row;border-radius:999px}}
+.vp-scan-form input{flex:1;border:none;background:transparent;padding:12px 20px;outline:none;font-size:1rem}
+.vp-scan-form .btn{justify-content:center}

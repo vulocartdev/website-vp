@@ -85,11 +85,3 @@ function vulopilot_register_blocks() {
 	}
 }
 add_action( 'init', 'vulopilot_register_blocks' );
-
-/**
- * Register the Home page template used by the Home Page Blocks fallback.
- */
-function vulopilot_register_page_templates( $templates ) {
-	$templates['front-page.php'] = __( 'VuloPilot Home', 'vulopilot' );
-	return $templates;
-}

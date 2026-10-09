@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/features",
+	"title": "VuloPilot: Features",
+	"category": "vulopilot",
+	"icon": "grid-view",
+	"description": "Sidebar of feature areas with a detail panel on the right.",
+	"attributes": {
+		"heading": { "type": "string", "default": "Eleven areas. One plugin." },
+		"subhead": { "type": "string", "default": "Free gives you the insight. Pro adds the action. Pick an area to see exactly what you get in each." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js"
+}

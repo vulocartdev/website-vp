@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/final-cta",
+	"title": "VuloPilot: Final CTA",
+	"category": "vulopilot",
+	"icon": "megaphone",
+	"description": "Closing scan-my-website call to action with a gradient card and URL form.",
+	"attributes": {
+		"heading": { "type": "string", "default": "You have the questions. VuloPilot has the answers." },
+		"buttonText": { "type": "string", "default": "Scan My Website" },
+		"helperText": { "type": "string", "default": "Free to start · No credit card required" }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css"
+}

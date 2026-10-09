@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/pricing",
+	"title": "VuloPilot: Pricing",
+	"category": "vulopilot",
+	"icon": "money-alt",
+	"description": "Free vs Pro pricing cards.",
+	"attributes": {
+		"heading": { "type": "string", "default": "Start with insight. Upgrade to action." },
+		"subhead": { "type": "string", "default": "Start free to discover what’s holding your website back. Upgrade when you’re ready to let AI fix, create and improve it automatically." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css"
+}

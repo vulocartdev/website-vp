@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vulopilot/dashboard-preview",
+	"title": "VuloPilot: Dashboard Preview",
+	"category": "vulopilot",
+	"icon": "dashboard",
+	"description": "Six score cards with sparkline trend lines, inside a tabbed dashboard mock.",
+	"attributes": {
+		"heading": { "type": "string", "default": "Finally, see what's really happening." },
+		"subhead": { "type": "string", "default": "Six scores, a health timeline, a needs-your-attention list and recent changes you can undo. Drag, hide and arrange the cards your way." }
+	},
+	"textdomain": "vulopilot",
+	"editorScript": "file:./edit.js",
+	"style": "file:./style.css"
+}
