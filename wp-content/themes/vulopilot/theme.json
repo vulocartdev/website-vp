@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": { "contentSize": "1152px", "wideSize": "1280px" },
+    "color": {
+      "palette": [
+        { "slug": "bg", "color": "#f5f7fc", "name": "Background" },
+        { "slug": "surface", "color": "#ffffff", "name": "Surface" },
+        { "slug": "ink", "color": "#0a1230", "name": "Ink" },
+        { "slug": "muted", "color": "#5d6784", "name": "Muted" },
+        { "slug": "line", "color": "#e1e6f2", "name": "Line" },
+        { "slug": "sage", "color": "#002991", "name": "Sage (Brand Blue)" },
+        { "slug": "sage-soft", "color": "#dfe7fb", "name": "Sage Soft" },
+        { "slug": "apricot", "color": "#f91305b8", "name": "Apricot" },
+        { "slug": "apricot-soft", "color": "#fde4e1", "name": "Apricot Soft" },
+        { "slug": "lilac", "color": "#4c6fd1", "name": "Lilac" },
+        { "slug": "lilac-soft", "color": "#e4eafa", "name": "Lilac Soft" },
+        { "slug": "rose", "color": "#d8362b", "name": "Rose" },
+        { "slug": "flare", "color": "#ff5d50", "name": "Flare" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Plus Jakarta Sans', sans-serif",
+          "slug": "display",
+          "name": "Plus Jakarta Sans"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.875rem", "name": "Small" },
+        { "slug": "medium", "size": "1.125rem", "name": "Medium" },
+        { "slug": "large", "size": "2rem", "name": "Large" },
+        { "slug": "x-large", "size": "3.5rem", "name": "X-Large" }
+      ]
+    }
+  }
+}
