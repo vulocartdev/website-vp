@@ -11,12 +11,15 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 
-if ( have_posts() ) {
-	the_post();
-}
+$vulopilot_queried_post  = get_queried_object();
+$vulopilot_has_own_content = ( $vulopilot_queried_post instanceof WP_Post )
+	&& '' !== trim( wp_strip_all_tags( $vulopilot_queried_post->post_content ) );
 
-if ( have_posts() || ( isset( $post ) && ! empty( trim( wp_strip_all_tags( $post->post_content ) ) ) ) ) {
-	the_content();
+if ( $vulopilot_has_own_content ) {
+	while ( have_posts() ) {
+		the_post();
+		the_content();
+	}
 } else {
 	$default_blocks = array(
 		'vulopilot/hero',
