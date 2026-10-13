@@ -1,0 +1,667 @@
+[
+  {
+    "route": "about",
+    "title": "About",
+    "file": "templates/about.php",
+    "key": "about",
+    "slug": ""
+  },
+  {
+    "route": "blog",
+    "title": "Blog",
+    "file": "templates/blog.php",
+    "key": "blog",
+    "slug": ""
+  },
+  {
+    "route": "compare/vulopilot-vs-yoast-seo",
+    "title": "VuloPilot vs Yoast SEO",
+    "file": "templates/compare/vulopilot-vs-yoast-seo.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-yoast-seo"
+  },
+  {
+    "route": "compare/vulopilot-vs-rank-math",
+    "title": "VuloPilot vs Rank Math",
+    "file": "templates/compare/vulopilot-vs-rank-math.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-rank-math"
+  },
+  {
+    "route": "compare/vulopilot-vs-all-in-one-seo",
+    "title": "VuloPilot vs All in One SEO",
+    "file": "templates/compare/vulopilot-vs-all-in-one-seo.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-all-in-one-seo"
+  },
+  {
+    "route": "compare/vulopilot-vs-seopress",
+    "title": "VuloPilot vs SEOPress",
+    "file": "templates/compare/vulopilot-vs-seopress.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-seopress"
+  },
+  {
+    "route": "compare/vulopilot-vs-the-seo-framework",
+    "title": "VuloPilot vs The SEO Framework",
+    "file": "templates/compare/vulopilot-vs-the-seo-framework.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-the-seo-framework"
+  },
+  {
+    "route": "compare/vulopilot-vs-wp-rocket",
+    "title": "VuloPilot vs WP Rocket",
+    "file": "templates/compare/vulopilot-vs-wp-rocket.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-wp-rocket"
+  },
+  {
+    "route": "compare/vulopilot-vs-wordfence",
+    "title": "VuloPilot vs Wordfence",
+    "file": "templates/compare/vulopilot-vs-wordfence.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-wordfence"
+  },
+  {
+    "route": "compare/vulopilot-vs-jetpack",
+    "title": "VuloPilot vs Jetpack",
+    "file": "templates/compare/vulopilot-vs-jetpack.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-jetpack"
+  },
+  {
+    "route": "compare/vulopilot-vs-screaming-frog",
+    "title": "VuloPilot vs Screaming Frog",
+    "file": "templates/compare/vulopilot-vs-screaming-frog.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-screaming-frog"
+  },
+  {
+    "route": "compare/vulopilot-vs-semrush",
+    "title": "VuloPilot vs Semrush",
+    "file": "templates/compare/vulopilot-vs-semrush.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-semrush"
+  },
+  {
+    "route": "compare/vulopilot-vs-ahrefs",
+    "title": "VuloPilot vs Ahrefs",
+    "file": "templates/compare/vulopilot-vs-ahrefs.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-ahrefs"
+  },
+  {
+    "route": "compare/vulopilot-vs-surfer-seo",
+    "title": "VuloPilot vs Surfer SEO",
+    "file": "templates/compare/vulopilot-vs-surfer-seo.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-surfer-seo"
+  },
+  {
+    "route": "compare/vulopilot-vs-google-search-console",
+    "title": "VuloPilot vs Google Search Console",
+    "file": "templates/compare/vulopilot-vs-google-search-console.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-google-search-console"
+  },
+  {
+    "route": "compare/vulopilot-vs-pagespeed-insights",
+    "title": "VuloPilot vs PageSpeed Insights",
+    "file": "templates/compare/vulopilot-vs-pagespeed-insights.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-pagespeed-insights"
+  },
+  {
+    "route": "compare/vulopilot-vs-google-lighthouse",
+    "title": "VuloPilot vs Google Lighthouse",
+    "file": "templates/compare/vulopilot-vs-google-lighthouse.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-google-lighthouse"
+  },
+  {
+    "route": "compare/vulopilot-vs-manual-seo-audits",
+    "title": "VuloPilot vs Manual SEO audits",
+    "file": "templates/compare/vulopilot-vs-manual-seo-audits.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-manual-seo-audits"
+  },
+  {
+    "route": "compare/vulopilot-vs-seo-plugins",
+    "title": "VuloPilot vs SEO plugins",
+    "file": "templates/compare/vulopilot-vs-seo-plugins.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-seo-plugins"
+  },
+  {
+    "route": "compare/vulopilot-vs-seo-tools",
+    "title": "VuloPilot vs SEO tools",
+    "file": "templates/compare/vulopilot-vs-seo-tools.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-seo-tools"
+  },
+  {
+    "route": "compare/vulopilot-vs-ai-seo-tools",
+    "title": "VuloPilot vs AI SEO tools",
+    "file": "templates/compare/vulopilot-vs-ai-seo-tools.php",
+    "key": "compare/[slug]",
+    "slug": "vulopilot-vs-ai-seo-tools"
+  },
+  {
+    "route": "compare",
+    "title": "Compare",
+    "file": "templates/compare.php",
+    "key": "compare",
+    "slug": ""
+  },
+  {
+    "route": "docs",
+    "title": "Documentation",
+    "file": "templates/docs.php",
+    "key": "docs",
+    "slug": ""
+  },
+  {
+    "route": "features/search-visibility",
+    "title": "Search Visibility",
+    "file": "templates/features/search-visibility.php",
+    "key": "features/[slug]",
+    "slug": "search-visibility"
+  },
+  {
+    "route": "features/ai-search",
+    "title": "AI Search",
+    "file": "templates/features/ai-search.php",
+    "key": "features/[slug]",
+    "slug": "ai-search"
+  },
+  {
+    "route": "features/website-health",
+    "title": "Website Health",
+    "file": "templates/features/website-health.php",
+    "key": "features/[slug]",
+    "slug": "website-health"
+  },
+  {
+    "route": "features/performance",
+    "title": "Performance",
+    "file": "templates/features/performance.php",
+    "key": "features/[slug]",
+    "slug": "performance"
+  },
+  {
+    "route": "features/security",
+    "title": "Security",
+    "file": "templates/features/security.php",
+    "key": "features/[slug]",
+    "slug": "security"
+  },
+  {
+    "route": "features/content",
+    "title": "Content",
+    "file": "templates/features/content.php",
+    "key": "features/[slug]",
+    "slug": "content"
+  },
+  {
+    "route": "features/woocommerce",
+    "title": "WooCommerce",
+    "file": "templates/features/woocommerce.php",
+    "key": "features/[slug]",
+    "slug": "woocommerce"
+  },
+  {
+    "route": "features/automation",
+    "title": "Automation",
+    "file": "templates/features/automation.php",
+    "key": "features/[slug]",
+    "slug": "automation"
+  },
+  {
+    "route": "features",
+    "title": "Features",
+    "file": "templates/features.php",
+    "key": "features",
+    "slug": ""
+  },
+  {
+    "route": "for/website-owners",
+    "title": "For owners who just want to know their site is okay.",
+    "file": "templates/for/website-owners.php",
+    "key": "for/[slug]",
+    "slug": "website-owners"
+  },
+  {
+    "route": "for/businesses",
+    "title": "For businesses that depend on their website.",
+    "file": "templates/for/businesses.php",
+    "key": "for/[slug]",
+    "slug": "businesses"
+  },
+  {
+    "route": "for/marketers",
+    "title": "For marketers asking where are we losing growth?",
+    "file": "templates/for/marketers.php",
+    "key": "for/[slug]",
+    "slug": "marketers"
+  },
+  {
+    "route": "for/agencies",
+    "title": "For agencies asking what needs attention across every site.",
+    "file": "templates/for/agencies.php",
+    "key": "for/[slug]",
+    "slug": "agencies"
+  },
+  {
+    "route": "for/woocommerce-stores",
+    "title": "For stores asking what is hurting my sales.",
+    "file": "templates/for/woocommerce-stores.php",
+    "key": "for/[slug]",
+    "slug": "woocommerce-stores"
+  },
+  {
+    "route": "for",
+    "title": "For",
+    "file": "templates/for.php",
+    "key": "for",
+    "slug": ""
+  },
+  {
+    "route": "guides/wordpress-seo",
+    "title": "WordPress SEO",
+    "file": "templates/guides/wordpress-seo.php",
+    "key": "guides/[slug]",
+    "slug": "wordpress-seo"
+  },
+  {
+    "route": "guides/technical-seo",
+    "title": "Technical SEO",
+    "file": "templates/guides/technical-seo.php",
+    "key": "guides/[slug]",
+    "slug": "technical-seo"
+  },
+  {
+    "route": "guides/ai-search",
+    "title": "AI Search",
+    "file": "templates/guides/ai-search.php",
+    "key": "guides/[slug]",
+    "slug": "ai-search"
+  },
+  {
+    "route": "guides/geo",
+    "title": "GEO: Generative Engine Optimization",
+    "file": "templates/guides/geo.php",
+    "key": "guides/[slug]",
+    "slug": "geo"
+  },
+  {
+    "route": "guides/aeo",
+    "title": "AEO: Answer Engine Optimization",
+    "file": "templates/guides/aeo.php",
+    "key": "guides/[slug]",
+    "slug": "aeo"
+  },
+  {
+    "route": "guides/website-audit",
+    "title": "Website Audit",
+    "file": "templates/guides/website-audit.php",
+    "key": "guides/[slug]",
+    "slug": "website-audit"
+  },
+  {
+    "route": "guides/website-performance",
+    "title": "Website Performance",
+    "file": "templates/guides/website-performance.php",
+    "key": "guides/[slug]",
+    "slug": "website-performance"
+  },
+  {
+    "route": "guides/core-web-vitals",
+    "title": "Core Web Vitals",
+    "file": "templates/guides/core-web-vitals.php",
+    "key": "guides/[slug]",
+    "slug": "core-web-vitals"
+  },
+  {
+    "route": "guides/website-security",
+    "title": "Website Security",
+    "file": "templates/guides/website-security.php",
+    "key": "guides/[slug]",
+    "slug": "website-security"
+  },
+  {
+    "route": "guides/website-health",
+    "title": "Website Health",
+    "file": "templates/guides/website-health.php",
+    "key": "guides/[slug]",
+    "slug": "website-health"
+  },
+  {
+    "route": "guides/content-optimization",
+    "title": "Content Optimization",
+    "file": "templates/guides/content-optimization.php",
+    "key": "guides/[slug]",
+    "slug": "content-optimization"
+  },
+  {
+    "route": "guides/woocommerce-seo",
+    "title": "WooCommerce SEO",
+    "file": "templates/guides/woocommerce-seo.php",
+    "key": "guides/[slug]",
+    "slug": "woocommerce-seo"
+  },
+  {
+    "route": "guides",
+    "title": "Guides",
+    "file": "templates/guides.php",
+    "key": "guides",
+    "slug": ""
+  },
+  {
+    "route": "how-it-works",
+    "title": "How it works",
+    "file": "templates/how-it-works.php",
+    "key": "how-it-works",
+    "slug": ""
+  },
+  {
+    "route": "",
+    "title": "Home",
+    "file": "templates/home.php",
+    "key": "home",
+    "slug": ""
+  },
+  {
+    "route": "pricing",
+    "title": "Pricing",
+    "file": "templates/pricing.php",
+    "key": "pricing",
+    "slug": ""
+  },
+  {
+    "route": "problems/not-showing-on-google",
+    "title": "Your site is not showing on Google.",
+    "file": "templates/problems/not-showing-on-google.php",
+    "key": "problems/[slug]",
+    "slug": "not-showing-on-google"
+  },
+  {
+    "route": "problems/website-too-slow",
+    "title": "Your website feels too slow.",
+    "file": "templates/problems/website-too-slow.php",
+    "key": "problems/[slug]",
+    "slug": "website-too-slow"
+  },
+  {
+    "route": "problems/not-appearing-in-ai-search",
+    "title": "You are not appearing in AI search.",
+    "file": "templates/problems/not-appearing-in-ai-search.php",
+    "key": "problems/[slug]",
+    "slug": "not-appearing-in-ai-search"
+  },
+  {
+    "route": "problems/pages-not-indexed",
+    "title": "Your pages are not getting indexed.",
+    "file": "templates/problems/pages-not-indexed.php",
+    "key": "problems/[slug]",
+    "slug": "pages-not-indexed"
+  },
+  {
+    "route": "problems/poor-core-web-vitals",
+    "title": "Your Core Web Vitals are failing.",
+    "file": "templates/problems/poor-core-web-vitals.php",
+    "key": "problems/[slug]",
+    "slug": "poor-core-web-vitals"
+  },
+  {
+    "route": "problems/low-search-traffic",
+    "title": "Your search traffic is lower than it should be.",
+    "file": "templates/problems/low-search-traffic.php",
+    "key": "problems/[slug]",
+    "slug": "low-search-traffic"
+  },
+  {
+    "route": "problems/poor-search-rankings",
+    "title": "Your pages rank lower than they deserve.",
+    "file": "templates/problems/poor-search-rankings.php",
+    "key": "problems/[slug]",
+    "slug": "poor-search-rankings"
+  },
+  {
+    "route": "problems/website-security-issues",
+    "title": "Your site has security issues.",
+    "file": "templates/problems/website-security-issues.php",
+    "key": "problems/[slug]",
+    "slug": "website-security-issues"
+  },
+  {
+    "route": "problems/website-health-issues",
+    "title": "WordPress is reporting health issues.",
+    "file": "templates/problems/website-health-issues.php",
+    "key": "problems/[slug]",
+    "slug": "website-health-issues"
+  },
+  {
+    "route": "problems/slow-woocommerce-store",
+    "title": "Your WooCommerce store is slow.",
+    "file": "templates/problems/slow-woocommerce-store.php",
+    "key": "problems/[slug]",
+    "slug": "slow-woocommerce-store"
+  },
+  {
+    "route": "problems/manual-website-management",
+    "title": "Too much manual website work.",
+    "file": "templates/problems/manual-website-management.php",
+    "key": "problems/[slug]",
+    "slug": "manual-website-management"
+  },
+  {
+    "route": "problems",
+    "title": "Problems",
+    "file": "templates/problems.php",
+    "key": "problems",
+    "slug": ""
+  },
+  {
+    "route": "resources/seo-checklist",
+    "title": "SEO Checklist",
+    "file": "templates/resources/seo-checklist.php",
+    "key": "resources/[slug]",
+    "slug": "seo-checklist"
+  },
+  {
+    "route": "resources/website-audit-checklist",
+    "title": "Website Audit Checklist",
+    "file": "templates/resources/website-audit-checklist.php",
+    "key": "resources/[slug]",
+    "slug": "website-audit-checklist"
+  },
+  {
+    "route": "resources/core-web-vitals-checklist",
+    "title": "Core Web Vitals Checklist",
+    "file": "templates/resources/core-web-vitals-checklist.php",
+    "key": "resources/[slug]",
+    "slug": "core-web-vitals-checklist"
+  },
+  {
+    "route": "resources/ai-search-optimization-checklist",
+    "title": "AI Search Optimization Checklist",
+    "file": "templates/resources/ai-search-optimization-checklist.php",
+    "key": "resources/[slug]",
+    "slug": "ai-search-optimization-checklist"
+  },
+  {
+    "route": "resources/website-health-checklist",
+    "title": "Website Health Checklist",
+    "file": "templates/resources/website-health-checklist.php",
+    "key": "resources/[slug]",
+    "slug": "website-health-checklist"
+  },
+  {
+    "route": "resources",
+    "title": "Resources",
+    "file": "templates/resources.php",
+    "key": "resources",
+    "slug": ""
+  },
+  {
+    "route": "solutions/wordpress-seo",
+    "title": "WordPress SEO that tells you what to do next.",
+    "file": "templates/solutions/wordpress-seo.php",
+    "key": "solutions/[slug]",
+    "slug": "wordpress-seo"
+  },
+  {
+    "route": "solutions/seo-audit",
+    "title": "An SEO audit you can run again every week.",
+    "file": "templates/solutions/seo-audit.php",
+    "key": "solutions/[slug]",
+    "slug": "seo-audit"
+  },
+  {
+    "route": "solutions/website-audit",
+    "title": "One audit for your whole website.",
+    "file": "templates/solutions/website-audit.php",
+    "key": "solutions/[slug]",
+    "slug": "website-audit"
+  },
+  {
+    "route": "solutions/ai-search-optimization",
+    "title": "Show up when people ask AI instead of Google.",
+    "file": "templates/solutions/ai-search-optimization.php",
+    "key": "solutions/[slug]",
+    "slug": "ai-search-optimization"
+  },
+  {
+    "route": "solutions/generative-engine-optimization",
+    "title": "Generative Engine Optimization, made practical.",
+    "file": "templates/solutions/generative-engine-optimization.php",
+    "key": "solutions/[slug]",
+    "slug": "generative-engine-optimization"
+  },
+  {
+    "route": "solutions/answer-engine-optimization",
+    "title": "Be the answer, not just a result.",
+    "file": "templates/solutions/answer-engine-optimization.php",
+    "key": "solutions/[slug]",
+    "slug": "answer-engine-optimization"
+  },
+  {
+    "route": "solutions/website-performance",
+    "title": "A faster website, one fix at a time.",
+    "file": "templates/solutions/website-performance.php",
+    "key": "solutions/[slug]",
+    "slug": "website-performance"
+  },
+  {
+    "route": "solutions/core-web-vitals",
+    "title": "Core Web Vitals in plain English.",
+    "file": "templates/solutions/core-web-vitals.php",
+    "key": "solutions/[slug]",
+    "slug": "core-web-vitals"
+  },
+  {
+    "route": "solutions/wordpress-security",
+    "title": "WordPress security without the jargon.",
+    "file": "templates/solutions/wordpress-security.php",
+    "key": "solutions/[slug]",
+    "slug": "wordpress-security"
+  },
+  {
+    "route": "solutions/website-health",
+    "title": "Know your website is actually healthy.",
+    "file": "templates/solutions/website-health.php",
+    "key": "solutions/[slug]",
+    "slug": "website-health"
+  },
+  {
+    "route": "solutions/woocommerce-seo",
+    "title": "WooCommerce SEO that protects your sales.",
+    "file": "templates/solutions/woocommerce-seo.php",
+    "key": "solutions/[slug]",
+    "slug": "woocommerce-seo"
+  },
+  {
+    "route": "solutions/website-automation",
+    "title": "A website that looks after itself.",
+    "file": "templates/solutions/website-automation.php",
+    "key": "solutions/[slug]",
+    "slug": "website-automation"
+  },
+  {
+    "route": "solutions",
+    "title": "Solutions",
+    "file": "templates/solutions.php",
+    "key": "solutions",
+    "slug": ""
+  },
+  {
+    "route": "use-cases/fix-seo-problems",
+    "title": "Fix SEO problems in the right order.",
+    "file": "templates/use-cases/fix-seo-problems.php",
+    "key": "use-cases/[slug]",
+    "slug": "fix-seo-problems"
+  },
+  {
+    "route": "use-cases/improve-ai-visibility",
+    "title": "Improve how AI understands your business.",
+    "file": "templates/use-cases/improve-ai-visibility.php",
+    "key": "use-cases/[slug]",
+    "slug": "improve-ai-visibility"
+  },
+  {
+    "route": "use-cases/improve-search-visibility",
+    "title": "Make it easier for search engines to find you.",
+    "file": "templates/use-cases/improve-search-visibility.php",
+    "key": "use-cases/[slug]",
+    "slug": "improve-search-visibility"
+  },
+  {
+    "route": "use-cases/improve-website-performance",
+    "title": "Make your site feel instantly faster.",
+    "file": "templates/use-cases/improve-website-performance.php",
+    "key": "use-cases/[slug]",
+    "slug": "improve-website-performance"
+  },
+  {
+    "route": "use-cases/monitor-website-health",
+    "title": "Monitor your site&#x27;s health without checking daily.",
+    "file": "templates/use-cases/monitor-website-health.php",
+    "key": "use-cases/[slug]",
+    "slug": "monitor-website-health"
+  },
+  {
+    "route": "use-cases/improve-website-security",
+    "title": "Close the gaps attackers look for first.",
+    "file": "templates/use-cases/improve-website-security.php",
+    "key": "use-cases/[slug]",
+    "slug": "improve-website-security"
+  },
+  {
+    "route": "use-cases/optimize-website-content",
+    "title": "Keep every page useful, fresh and findable.",
+    "file": "templates/use-cases/optimize-website-content.php",
+    "key": "use-cases/[slug]",
+    "slug": "optimize-website-content"
+  },
+  {
+    "route": "use-cases/optimize-woocommerce",
+    "title": "Turn store problems into a to-do list.",
+    "file": "templates/use-cases/optimize-woocommerce.php",
+    "key": "use-cases/[slug]",
+    "slug": "optimize-woocommerce"
+  },
+  {
+    "route": "use-cases/automate-website-management",
+    "title": "Put routine website work on a schedule.",
+    "file": "templates/use-cases/automate-website-management.php",
+    "key": "use-cases/[slug]",
+    "slug": "automate-website-management"
+  },
+  {
+    "route": "use-cases",
+    "title": "Use cases",
+    "file": "templates/use-cases.php",
+    "key": "use-cases",
+    "slug": ""
+  }
+]
